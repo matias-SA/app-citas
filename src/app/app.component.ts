@@ -3,8 +3,19 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'citas';
+  listCitas: any[] = [];
+
+  agregarCita(cita: any) {
+    console.log('soy el padre');
+    console.log(cita);
+    console.log(this.listCitas);
+
+    this.listCitas.push(cita);
+  }
+  deleteCita(index) {
+    this.listCitas.splice(index, 1);
+  }
 }
