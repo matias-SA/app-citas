@@ -1,4 +1,8 @@
-# Citas
+# APP Agenda
+
+Aplicacion de una agenda dinamica en la cual llenas un formulario con los datos y esta se guarda agendando la cita que tenes. TRabaje interizandome en ReactiveForms de Angular.
+
+Tecnologias utilizadas: Angular 10 y Bootstrao.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.3.
 
